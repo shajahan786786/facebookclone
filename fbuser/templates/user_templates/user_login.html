@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fbuser</title>
+</head>
+<body>
+    <table  width="100%" cellspacing="0">
+        <tr bgcolor="#3b5998" >
+            <td width="55%">
+                <img src="{% static 'images/fb_logo.jfif' %}" alt="" width="220" style="border-radius: 15px;">
+            </td>
+            <td align="right">
+                <input type="text" placeholder="email" style="border-radius: 15px;height: 30px;" >
+                <input type="text" placeholder="password"style="border-radius: 15px;height: 30px;" >
+                <input type="button" value=" LOGIN" style="border-radius: 15px;height: 30px;">
+            </td>
+            
+        </tr>
+        <tr bgcolor="edf0f5" height="600px">
+            <td valign="top" align="center"><br><br><br><br>
+                <table width="80%">
+                    <tr>
+                        <td>
+                            <h2>
+                                <font face="verdana">conect with friends and the world
+                                     around you on facebook</font>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font face="verdana">
+                                <img src="{% static 'images/fb_news_icon.jfif' %}" alt="" width="50" style="border-radius: 15px;"> &nbsp; &nbsp;see 
+                                photos and updates from friends in news feed <br><br>
+                                <img src="{% static 'images/fb_timeline.jfif' %}" alt="" width="50" style="border-radius: 15px;"> &nbsp; &nbsp;share
+                                whats new in your life on your Timeline <br><br>
+                                <img src="{% static 'images/fb_graph.jfif' %}" alt="" width="50" style="border-radius: 15px;"> &nbsp; &nbsp; find more 
+                                of what you are looking for with graph search <br><br>
+                            </font>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+            <td valign="top" align="center"><br><br><br><br>
+                <h1>Sign Up</h1>
+                <table  cellspacing="10">
+                    <tr>
+                        <td><input type="text" placeholder="firstname" size="30" style="height: 30px;border-radius: 15px;border-color: #dce0e9;"></td>
+                        <td align="left"> <input type="text" placeholder="lastname" style="height: 30px;border-radius: 15px;border-color: #dce0e9;" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="text" placeholder="Mobile Number" size="60" style="height: 40px;border-radius: 15px;border-color: #dce0e9;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="text" placeholder="Email" size="60" style="height: 40px;border-radius: 15px;border-color: #dce0e9;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="text" placeholder="password" size="60" style="height: 40px;border-radius: 15px;border-color: #dce0e9;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" >
+                            <font color="#666666" face="Verdana,Arial,Helvetica,sans-serif" size="1">
+                                By clicking Sign Up,You agree to our terms and that you have read our data use policy
+                                including our cookie use
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="{% static 'images/signup.png' %}" alt="" width="100" style="border-radius: 15px;">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+
+        </tr>
+        
+    </table>
+</body>
+</html>
